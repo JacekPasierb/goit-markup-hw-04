@@ -93,7 +93,11 @@ header .logo {
   background-color: var(--background-color);
   display: flex;
   padding-block: 200px;
-  background-image: url("/images/Img\ \(1\).jpg");
+  background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+  ),
+    url("/images/Img\ \(1\).jpg");
   background-size: cover;
 }
 .our-team {
@@ -310,4 +314,3 @@ nav {
   align-items: baseline;
   gap: 70px;
 }
-

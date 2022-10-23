@@ -90,7 +90,6 @@ header .logo {
   padding-block: 60px;
 }
 .background-banner {
-  background-color: var(--background-color);
   display: flex;
   padding-block: 200px;
   background-image: linear-gradient(
@@ -98,7 +97,9 @@ header .logo {
       rgba(47, 48, 58, 0.4)
     ),
     url("../images/Img\ \(1\).jpg");
+  background-color: var(--background-color);
   background-size: cover;
+  max-width: 1600px;
 }
 .our-team {
   background-color: var(--background-color-two);
@@ -326,9 +327,9 @@ nav {
 }
 .social-list-link:hover,
 .social-list-link:focus {
-  --color4:#FFFFFF;
-  --color5:#FFFFFF;
- 
+  --color4: #ffffff;
+  --color5: #ffffff;
+
   background-color: var(--one-color-logo);
   cursor: pointer;
 }
@@ -343,8 +344,8 @@ nav {
 }
 footer .social-list-link {
   background-color: #ffffff1a;
-  --color4:#FFFFFF;
-  --color5:#FFFFFF;
+  --color4: #ffffff;
+  --color5: #ffffff;
 }
 .social-list {
   display: flex;
@@ -365,8 +366,8 @@ footer .social-list-link {
   justify-content: center;
 }
 .icon-contact {
-  --color1:#757575;
+  --color1: #757575;
 }
 .icon-contact:hover {
-  --color1:#2196f3;
+  --color1: #2196f3;
 }

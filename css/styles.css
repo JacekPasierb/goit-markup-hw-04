@@ -97,7 +97,7 @@ header .logo {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("/images/Img\ \(1\).jpg");
+    url("../images/Img\ \(1\).jpg");
   background-size: cover;
 }
 .our-team {

@@ -292,11 +292,7 @@ nav {
   justify-content: center;
   align-items: center;
 }
-.social-media {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-}
+
 .menu-contact-style svg {
   margin-right: 10px;
 }
@@ -307,10 +303,52 @@ nav {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-  padding-bottom: 7px;
+  padding-bottom: 20px;
 }
 .flex-footer {
   display: flex;
   align-items: baseline;
   gap: 70px;
+}
+.social-icon {
+  width:20px;
+  height:20px;
+
+}
+.social-list-link:hover,
+.social-list-link:focus {
+  fill: var(--color-text);
+  background-color: var(--one-color-logo);
+  cursor:pointer;
+}
+.social-list-link {
+  display:flex;
+  width:44px;
+  height:44px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  fill:#AFB1B8;
+}
+footer .social-list-link{
+  background-color:#FFFFFF1A;
+  fill: #FFFFFF;
+}
+.social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
+}
+.icon-strengths {
+  width:70px;
+  height:70px;
+}
+.icon-strengths-background {
+  display: flex;
+  width:270px;
+  height:120px;
+  background-color: #F5F4FA;
+  align-items: center;
+  justify-content: center;
 }

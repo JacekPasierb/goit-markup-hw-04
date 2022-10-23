@@ -93,6 +93,7 @@ header .logo {
   display: flex;
   padding-block: 200px;
   background-color: var(--background-color);
+  margin: 0 auto;
 }
   .image-banner {
 

@@ -299,7 +299,7 @@ nav {
 }
 .border-client:hover,
 .border-client:focus {
-  fill: #2196f3;
+  --color5: #2196f3;
   border: 1px solid #2196f3;
 }
 
@@ -326,7 +326,9 @@ nav {
 }
 .social-list-link:hover,
 .social-list-link:focus {
-  fill: var(--color-text);
+  --color4:#FFFFFF;
+  --color5:#FFFFFF;
+ 
   background-color: var(--one-color-logo);
   cursor: pointer;
 }
@@ -341,7 +343,8 @@ nav {
 }
 footer .social-list-link {
   background-color: #ffffff1a;
-  fill: #ffffff;
+  --color4:#FFFFFF;
+  --color5:#FFFFFF;
 }
 .social-list {
   display: flex;
@@ -362,8 +365,8 @@ footer .social-list-link {
   justify-content: center;
 }
 .icon-contact {
-  fill: #757575;
+  --color1:#757575;
 }
 .icon-contact:hover {
-  fill: #2196f3;
+  --color1:#2196f3;
 }

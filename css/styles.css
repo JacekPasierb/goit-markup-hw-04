@@ -95,18 +95,16 @@ header .logo {
   background-color: var(--background-color);
   margin: 0 auto;
 }
-  .image-banner {
-
-  
+.image-banner {
   background-image: linear-gradient(
-    rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4)
-  ),
-  url("../images/Img\ \(1\).jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  max-width:1600px;
-  
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/Img\ \(1\).jpg");
+    background-size: 100% 100%;
+    background-position: left top;
+    background-repeat: no-repeat;
+  max-width: 1600px;
   
 }
 .our-team {
@@ -122,7 +120,6 @@ header .logo {
   text-transform: uppercase;
   display: flex;
   margin-bottom: 30px;
-  
 }
 .text-article {
   display: flex;

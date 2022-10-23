@@ -101,11 +101,10 @@ header .logo {
       rgba(47, 48, 58, 0.4)
     ),
     url("../images/Img\ \(1\).jpg");
-    background-size: 100% 100%;
-    background-position: left top;
-    background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: left top;
+  background-repeat: no-repeat;
   max-width: 1600px;
-  
 }
 .our-team {
   background-color: var(--background-color-two);

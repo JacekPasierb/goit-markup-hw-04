@@ -92,14 +92,21 @@ header .logo {
 .background-banner {
   display: flex;
   padding-block: 200px;
-  background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url("../images/Img\ \(1\).jpg");
   background-color: var(--background-color);
-  background-size: cover;
-  max-width: 1600px;
+}
+  .image-banner {
+
+  
+  background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+  ),
+  url("../images/Img\ \(1\).jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width:1600px;
+  
+  
 }
 .our-team {
   background-color: var(--background-color-two);
@@ -114,6 +121,7 @@ header .logo {
   text-transform: uppercase;
   display: flex;
   margin-bottom: 30px;
+  
 }
 .text-article {
   display: flex;

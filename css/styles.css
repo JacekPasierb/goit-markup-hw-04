@@ -94,9 +94,9 @@ header .logo {
   display: flex;
   padding-block: 200px;
   background-image: linear-gradient(
-    rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4)
-  ),
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
     url("/images/Img\ \(1\).jpg");
   background-size: cover;
 }
@@ -282,7 +282,7 @@ nav {
 .no-gap {
   display: block;
 }
-.border-klient {
+.border-client {
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
@@ -291,6 +291,16 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  fill: #afb1b8;
+}
+.icon-client {
+  width: 106px;
+  height: 60px;
+}
+.border-client:hover,
+.border-client:focus {
+  fill: #2196f3;
+  border: 1px solid #2196f3;
 }
 
 .menu-contact-style svg {
@@ -311,44 +321,43 @@ nav {
   gap: 70px;
 }
 .social-icon {
-  width:20px;
-  height:20px;
-
+  width: 20px;
+  height: 20px;
 }
 .social-list-link:hover,
 .social-list-link:focus {
   fill: var(--color-text);
   background-color: var(--one-color-logo);
-  cursor:pointer;
+  cursor: pointer;
 }
 .social-list-link {
-  display:flex;
-  width:44px;
-  height:44px;
+  display: flex;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  fill:#AFB1B8;
+  fill: #afb1b8;
 }
-footer .social-list-link{
-  background-color:#FFFFFF1A;
-  fill: #FFFFFF;
+footer .social-list-link {
+  background-color: #ffffff1a;
+  fill: #ffffff;
 }
 .social-list {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap:10px;
+  gap: 10px;
 }
 .icon-strengths {
-  width:70px;
-  height:70px;
+  width: 70px;
+  height: 70px;
 }
 .icon-strengths-background {
   display: flex;
-  width:270px;
-  height:120px;
-  background-color: #F5F4FA;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
   align-items: center;
   justify-content: center;
 }

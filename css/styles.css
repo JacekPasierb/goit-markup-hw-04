@@ -361,3 +361,9 @@ footer .social-list-link {
   align-items: center;
   justify-content: center;
 }
+.icon-contact {
+  fill: #757575;
+}
+.icon-contact:hover {
+  fill: #2196f3;
+}

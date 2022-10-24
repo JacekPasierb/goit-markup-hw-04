@@ -94,16 +94,11 @@ header .logo {
   padding-block: 200px;
   background-color: var(--background-color);
   margin: 0 auto;
-}
-.image-banner {
-  background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url("../images/Img\ \(1\).jpg");
-  background-size: 100% 100%;
-  background-position: left top;
-  background-repeat: no-repeat;
+
+  background-image: linear-gradient(#2f303a66, #2f303a66),
+    url(../images/Img\ \(1\).jpg);
+    background-size: contain;
+background-repeat: no-repeat;
   max-width: 1600px;
 }
 .our-team {
